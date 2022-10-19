@@ -7,30 +7,20 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
-    display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 100%;
     height: 100vh;
-}
-
-
-.image {
-    background-image: url(./isaac-mitchell-9oLkdMurH9Q-unsplash.jpg);
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: auto;
-    grid-row-end: auto;
 }
 
 .form {
     margin: auto;
     border: 1px solid rgb(218, 218, 218);
     padding: 1.5rem;
+    width: 50%;
+    margin-top: 50%;
 }
 
 #login-button {
     color: white;
-    width: 100%;
+    width: 100px;
     background-color: dodgerblue;
     border: 0;
     padding: 0.5em;
